@@ -1,0 +1,40 @@
+body {
+    background-image: url(https://i.pinimg.com/originals/c5/0e/b6/c50eb6346cf40cbab89043214746360c.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+}
+button {
+    border: 3px solid #fff;
+    background: none;
+    cursor: pointer;
+    font: 300 2em serif;
+    margin: 0.3em;
+    padding: 0.2em 1em;
+    transition: 0.25s;
+    color: #fff;
+  text-shadow:
+    0 0 5px #fff,
+    0 0 80px #0ff,
+    0 0 90px #0ff,
+    0 0 100px #0ff,
+    0 0 150px #0ff;
+}
+
+    button:hover, button:focus {
+        border-color: #178cda;
+        color: #178cda;
+    }
+
+.raise:hover {
+    box-shadow: 0 0.5em 0.5em -0.4em #178cda;
+    transform: translateY(-0.50em);
+    color: #178cda;
+}
